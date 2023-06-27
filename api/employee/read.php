@@ -34,7 +34,7 @@ else {
 $items = new Employee($db);
 $stmt = $items->getEmployees();
 $itemCount = $stmt->rowCount();
-echo json_encode($itemCount);
+//echo json_encode($itemCount);
 if($itemCount > 0){
 $employeeArr = array();
 $employeeArr["body"] = array();
