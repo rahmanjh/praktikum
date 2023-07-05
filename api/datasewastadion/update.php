@@ -25,7 +25,7 @@
     $item->tanggalsewa = $data->tanggalsewa;
 
     if($item->updateEmployee()){
-        echo json_encode(['message'=>'Employee updated successfully.']);
+        echo json_encode(['message'=>'Data Sewa Stadion Berhasil Diperbarui.']);
     } else{
         echo json_encode(['message'=>'Employee could not be updated.']);
     }

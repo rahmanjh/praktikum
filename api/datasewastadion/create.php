@@ -17,7 +17,7 @@
     $item->tanggalsewa = $data->tanggalsewa;
 
     if($item->createEmployee()){
-        echo json_encode(['message'=>'Employee created successfully.']);
+        echo json_encode(['message'=>'Data Sewa Stadion Berhasil Dibuat.']);
     } else{
         echo json_encode(['message'=>'Employee could not be created.']);
     }

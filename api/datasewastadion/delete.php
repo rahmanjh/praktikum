@@ -19,7 +19,7 @@
     $item->id = $data->id;
     
     if($item->deleteEmployee()){
-        echo json_encode("Employee deleted.");
+        echo json_encode("Data Sewa Stadion Berhasil Dihapus.");
     } else{
         echo json_encode("Data could not be deleted");
     }
