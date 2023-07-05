@@ -24,7 +24,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="row">
-                        <div class="col col-sm-9">Employee</div>
+                        <div class="col col-sm-9">Data Sewa Stadion</div>
                         <div class="col col-sm-3">
                             <button type="button" id="add_data" class="btn btn-success btn-sm float-end">Add</button>
                         </div>
