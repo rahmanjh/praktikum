@@ -19,7 +19,7 @@
         <div class="container">
             <div id="message">
             </div>
-            <h1 class="mt-4 mb-4 text-center text-danger">Employee CRUD</h1>
+            <h1 class="mt-4 mb-4 text-center text-danger">Data Sewa Stadion</h1>
             <span id="message"></span>
             <div class="card">
                 <div class="card-header">
